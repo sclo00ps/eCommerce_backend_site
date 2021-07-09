@@ -39,7 +39,7 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product-tag',
+    modelName: 'producttag',
   }
 );
 

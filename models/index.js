@@ -2,7 +2,7 @@
 const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');
-const ProductTag = require('./ProductTags');
+const ProductTag = require('./ProductTag.js');
 
 // Products belongsTo Category
 Product.belongsTo(Category, {
