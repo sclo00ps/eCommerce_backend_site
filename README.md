@@ -29,7 +29,7 @@
      None at this time.
 
      ## Tests:
-     Use Insomnia Core to test all of the request routes (Get, Post, Put, Delete) using the appropriate request body datapoints.
+     Use Insomnia Core or Postman to test all of the request routes (Get, Post, Put, Delete) using the appropriate request body datapoints.
 
      ## Credits:
      None at this time.
