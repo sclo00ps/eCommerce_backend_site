@@ -16,12 +16,11 @@ router.get('/', async (req, res) => {
     // ]
     include: [
       Category,
-      {
+        {
         model: Tag,
         through: ProductTag,
-       // as: 'price_tags'
-      },
-         ],
+        },
+      ],
     });
     const products = productData.map(product=> product.get({ plain: true }));
     res.status(200).json(products);
@@ -70,27 +69,7 @@ router.get('/:id', async (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
-  /* router.post('/', async(req, res) => {
- /* try {
-      const productData = await Product.create(req.body, {
-         
-       include: [
-         Category,
-        {
-          model: Tag,
-          through: ProductTag,
-       // as: 'price_tags'
-        },
-      ],
-    });
-
-      res.status(200).json(productData); 
-    } catch (err) {
-      console.log(err);
-      res.status(500).json(err);
-    }
-  });
-  */
+ 
 router.post('/', async(req, res) => {
  Product.create(req.body)
     .then((product) => {
