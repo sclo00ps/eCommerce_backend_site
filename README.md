@@ -26,13 +26,13 @@
      SO THAT my company can compete with other e-commerce companies
 
      ## Contribution:
-     None at this time.
+      None at this time.     Use Insomnia Core to test all of the request routes (Get, Post, Put, Delete) using the appropriate request body datapoints.
 
      ## Tests:
-     Use Insomnia Core to test all of the request routes (Get, Post, Put, Delete) using the appropriate request body datapoints.
+          Use Insomnia Core to test all of the request routes (Get, Post, Put, Delete) using the appropriate request body datapoints.
 
      ## Credits:
-     None at this time.
+          None at this time.
      
      ## License:
      MIT
@@ -44,9 +44,10 @@
      ## Questions:
         The link below will take you to my Github Profile for additional details:
 
-       <https://github.com/sclo00ps>
+       <a href = https://github.com/sclo00ps></a>
+      
     
         If there are any additional questions, plse contact me at:  
-        <louginescott@gmail.com>.
+        <a href = mailto:louginescott@gmail.com></a> .
 
     

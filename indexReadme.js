@@ -122,7 +122,8 @@ const generateReadMe = (answers) => {
      ## Questions:
         The link below will take you to my Github Profile for additional details:
 
-       <https://github.com/${answers.username}>
+       <https://github.com/${answers.username}>.
+      
     
         If there are any additional questions, plse contact me at:  
         <${answers.email}>.
