@@ -76,7 +76,7 @@ const generateReadMe = (answers) => {
 
         .then((answers) => {
 
-         const readmePageContent = `# ${answers}
+         const readmePageContent = `
 
     # Title 
     ${answers.title}
